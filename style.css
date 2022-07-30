@@ -1,0 +1,51 @@
+body{
+    font-family: 'Mochiy Pop One', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+background-color: aliceblue;
+
+}
+
+.flexible-content{
+    display: flex;
+}
+.flexible-content .half-width{
+    width: 50%;
+    margin-left: 10%;
+
+}
+.flexible-content .half-width div{
+    border-left:5px solid tomato;
+    border-radius: 3px;
+    padding-left: 5px;
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 100px;
+    
+}
+
+.flexible-content .half-width div h1{
+    margin: 0%;
+}
+.font-color{
+    color: orange;
+}
+.flexible-content .half-width p{
+    text-align: justify;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.flexible-content .half-width a{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,salmon);
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    
+    
+}
+.flexible-content .half-width img{
+    width: 80%;
+    
+}
+/*********** first section compelete********* */
